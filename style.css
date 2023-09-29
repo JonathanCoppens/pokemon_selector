@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+        .pokemon-name, .pokemon-id {
+            margin: auto 25px;
+        }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #f6cc4b;
+    color: #4160a3;
+    border-radius: 3px;
+    font-size: medium;
+    box-shadow: #4160a3 2px 2px 4px 1px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+    transition: 0.2s ;
+}
+
+#result-container {
+    text-align: center;
+}
